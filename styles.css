@@ -1,0 +1,67 @@
+.music {
+    width: 50px;
+}
+
+.card {
+    text-align: center;
+    top: 5rem;
+    border-radius: 5%;
+}
+
+.hero{
+    border-radius: 5% 5% 0 0;
+}
+@media(min-width:600px) {
+    body {
+        background-image: url(pattern-background-desktop.svg);
+    }
+
+    .card,
+    .hero {
+        width: 25rem;
+    }
+}
+
+@media(max-width:600px) {
+    body {
+        background-image: url(pattern-background-mobile.svg);
+    }
+
+    .card,
+    .hero {
+        width: 20rem;
+    }
+}
+
+.card-text {
+    font-size: 16px;
+    color: silver;
+}
+
+.payment {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    box-shadow: 5px 5px 10px rgb(95, 94, 94);
+}
+
+.space {
+    height: 10px;
+}
+
+.cancel{
+    color: black;
+    margin: 5px;
+}
+.change{
+    position: absolute;
+    right: 5px;
+}
+.plan-description{
+    font-family: "Serif";
+    font-size: 1.3rem;
+}
